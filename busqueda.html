@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Principal</title>
+<link rel="stylesheet" href="css/busqueda.css">
+
+<script type="text/javascript">
+function busqueda() {
+window.location = "busqueda.html";
+}
+</script>
+
+</head>
+<body background="fondo.png">
+
+<div class="header">
+      <h1 style="font-size: 60px">Proyecto</h1>
+    </div>
+<br><br>
+  
+   <nav>
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="hack/index.html">Business Casual</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
+                
+          <ul>
+             <li><a href="inicio.html">Inicio</a></li>
+             <li style="float:right"><a href="contacto.html">Contacto</a></li>
+             <li><form><input type="text" name="buscar" placeholder="Inserte su busqueda"></form></li>
+             <li><a href="busqueda.html">Busqueda Avanzada</a></form></li>
+           </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<div class="col-1">
+	<p1>FILTROS DE BUSQUEDA</p1><br>
+	<p>Enfermedad</p>
+	<select name="enfermedad">
+ 	<option value="null">--Seleccione una opcion--</option>
+  	<option value="Diarrea">Diarrea</option>
+  	<option value="DolorCa">Dolor de Cabeza</option>
+  	<option value="fiebre">Fiebre</option>
+  	<option value="gripe">Gripe</option>
+  	<option value="tos">Tos</option>
+	</select><br>
+	
+	<p>Dosis</p>
+	<select name="dosis">
+ 	<option value="null">--Seleccione una opcion--</option>
+  	<option value="mc">2.5 mL</option>
+  	<option value="ce">5 mL</option>
+  	<option value="mt">1/2 tableta</option>
+  	<option value="te">1 tableta</option>
+  	<option value="dt">2 tabletas</option>
+	</select><br>
+	
+	<p>Disponibilidad</p>
+	<select name="disp">
+ 	<option value="null">--Seleccione una opcion--</option>
+  	<option value="alta">Alta</option>
+  	<option value="media">Media</option>
+  	<option value="baja">Baja</option>
+	</select><br>
+	
+	<p>Tipo de Medicamento</p>
+	<select name="tipomed">
+ 	<option value="null">--Seleccione una opcion--</option>
+  	<option value="tabletas">Tabletas</option>
+  	<option value="jarabe">Jarabe</option>
+  	<option value="unguento">Uguento</option>
+	</select><br>
+	
+	<p>Precio</p>
+	<select name="precio">
+ 	<option value="null">--Seleccione una opcion--</option>
+  	<option value="alto">Alto</option>
+  	<option value="medio">Medio</option>
+  	<option value="bajo">Bajo</option>
+	</select><br>
+</div>
+
+<div class="col-9">
+	<p1>BUSQUEDA AVANZADA</p1>
+	
+	<a href="articulo.html"><div class="articulo">
+		<p>Paracetamol</p>
+		<p>Es un medicamento sin receta, utilizado normalmente para calmar a fiebre</p>
+		<p>Tipo de enfermedad: Fiebre</p>
+		<p>.....</p>
+	</div>
+	</a>
+	
+	<div class="articulo">
+		<p>Salbutamol</p>
+		<p>Un medicamento para calmar la fiebre, garganta irritado y cualquier sintoma con respecto a la tos.</p>
+		<p>Tipo de enfermedad: Tos</p>
+		<p>.....</p>
+	</div>
+	
+	<div class="articulo">
+		<p>Aspirina</p>
+		<p>Este medicamento es utilizado comunmente para aliviar dolores de cabeza. </p>
+		<p>Tipo de enfermedad: Dolor de Cabeza</p>
+		<p>.....</p>
+	</div>
+	
+</div>
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Website 2018</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
